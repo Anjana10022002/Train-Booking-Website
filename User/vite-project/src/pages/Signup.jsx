@@ -12,6 +12,9 @@ function Signup() {
                 <label htmlFor="password">Password:</label>
                 <input type="password" id="password" name="password" required />
                 <br />
+                <label htmlFor="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required />
+                <br />
                 <button type="submit">Sign Up</button>
             </form>     
         </div>
