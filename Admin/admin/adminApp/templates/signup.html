@@ -9,7 +9,8 @@
     <h1>Signup Page</h1>
     <form method="post">
         {% csrf_token %}
-        {{ form.as_p }}
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><
         <button type="submit">Sign Up</button>
     </form>
 </body>
